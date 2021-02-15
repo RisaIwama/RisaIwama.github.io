@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>MANGO MUG｜GALLERY</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+        
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  
+  
+<!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- Owl Carousel JS -->
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+        
+  <!-- Owl Carouselを動作させるために追加 -->
+  <script src="test-carousel.js"></script>
+ 
+        
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/icons8-化粧-64.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <header>
+    <div class="pc_header">
+    <h1><a href="index.html">MANGO MUG</a></h1>
+    <hr class="width_border">
+    <h2><a href="archive.html">ARCHIVE</a><span><a href="gallery.html">GALLERY</a></span><a href="contact.html">CONTACT</a></h2>
+    
+    
+    </div>
+    
+    
+    <div class="sp_header">
+    <h1><i class="fa fa-bars" aria-hidden="true"></i>       MANGO MUG</h1>
+    
+    <ul class="sp_menu_toggle">
+      <li><a href="index.html">TOP</a></li>
+     <li><a href="archive.html">ARCHIVE</a></li>
+     <li><a href="gallery.html">GALLERY</a></li>
+     <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    </div>
+    <script>
+  $(document).ready(function(){
+  $(".fa").click(function(){
+    $(".sp_menu_toggle").slideToggle();
+  });
+});
+ </script>
+    
+    　<img src="images/header/risaa.jpg" class="risa_header" alt="ヘッダートップ">
+    　<h3>GALLERY</h3>
+</header>
+
+<main>
+    <div class="main clearfix">
+    <div class="gallery">
+    <div class="main_style">
+     <img src="images/gallery/erina.jpg" alt="style">
+      </div>
+     <div class="others">
+      <img src="images/gallery/bella.jpg" alt="style" class="sub_style">
+      <img src="images/gallery/bella.jpg" alt="style" class="sub_style">
+      <img src="images/gallery/bella.jpg" alt="style" class="sub_style">
+      <img src="images/gallery/bella.jpg" alt="style" class="sub_style">
+      <img src="images/gallery/bella.jpg" alt="style" class="sub_style">
+      <img src="images/gallery/bella.jpg" alt="style" class="sub_style">
+      <img src="images/gallery/erina.jpg" alt="style">
+      <img src="images/gallery/erina.jpg" alt="style">
+      <img src="images/gallery/erina.jpg" alt="style">
+      <img src="images/gallery/erina.jpg" alt="style">
+      <img src="images/gallery/erina.jpg" alt="style">
+      <img src="images/gallery/erina.jpg" alt="style">
+     </div>
+     </div>
+     </div>
+     
+     <script>
+         $(window).load(function(){
+  $(".others img").click(function(){
+    var img_src = $(this).attr("src");
+    $(".main_style img").attr("src", img_src);
+  });
+});
+     </script>
+</main>
+
+<footer>
+    <h2>MANGO MUG</h2>
+    <p>© MANDO MUG all rights reserved.</p>
+</footer>
+</body>

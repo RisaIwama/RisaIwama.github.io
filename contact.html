@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>MANGO MUG｜CONTACT</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+        
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  
+  
+<!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- Owl Carousel JS -->
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+        
+  <!-- Owl Carouselを動作させるために追加 -->
+  <script src="test-carousel.js"></script>
+ 
+        
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/icons8-化粧-64.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <header>
+   <div class="pc_header">
+    <h1><a href="index.html">MANGO MUG</a></h1>
+    <hr class="width_border">
+     <h2><a href="archive.html">ARCHIVE</a><span><a href="gallery.html">GALLERY</a></span><a href="contact.html">CONTACT</a></h2>
+    
+    </div>
+    
+    
+    
+    <div class="sp_header">
+    <h1><i class="fa fa-bars" aria-hidden="true"></i>     MANGO MUG</h1>
+    
+   <ul class="sp_menu_toggle">
+     <li><a href="index.html">TOP</a></li>
+     <li><a href="archive.html">ARCHIVE</a></li>
+     <li><a href="gallery.html">GALLERY</a></li>
+     <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    </div>
+    <script>
+  $(document).ready(function(){
+  $(".fa").click(function(){
+    $(".sp_menu_toggle").slideToggle();
+  });
+});
+ </script>
+    
+    　<img src="images/header/risaa.jpg" class="risa_header" alt="ヘッダートップ">
+    　<h3>CONTACT</h3>
+</header>
+
+<main>
+<div class="contact-form">
+    <form action="" method="post" name="form" onsubmit="return validate()">
+        <h1 class="contact-title">お問い合わせ</h1>
+        <p>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
+        <div>
+            <div>
+                <label>お名前</label>
+                <input type="text" name="name" placeholder="例）山田太郎" value="">
+            </div>
+            <div>
+                <label>ふりがな</label>
+                <input type="text" name="furigana" placeholder="例）やまだたろう" value="">
+            </div>
+            <div>
+                <label>メールアドレス</label>
+                <input type="text" name="email" placeholder="例）guest@example.com" value="">
+            </div>
+            
+            
+            <div>
+                <label>お問い合わせ項目</label>
+                <select name="item"> -->
+                    <option value="">お問い合わせ項目を選択してください</option>
+                    <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+                    <option value="ご意見・ご感想">ご意見・ご感想</option>
+                </select>
+            </div>
+            <div>
+                <label>お問い合わせ内容</label>
+                <textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea>
+            </div>
+        </div>
+        <button type="submit">送信する</button>
+    </form>
+</div>  
+
+
+
+<!-- <p>ご用の際はお手数ですが、<br><span style="border-bottom:solid 1px #bbbbbb;"><b><i>mangomug.site.gmail.com</i></b></span><br>　までご連絡下さいます様お願い申し上げます。</p> -->
+<div class="contact-box">
+    <img src="images/contact/chocola.jpg" alt="profile">
+    <h2>MIMI</h2>
+    <p>メイク・お洋服をこよなく愛す23歳。ファッションやメイクは自分を好きになれる魔法。得意分野はかっこいいルック。</p>
+</div>
+   
+</main>
+ <footer>
+    <h2>MANGO MUG</h2>
+    <p>© MANDO MUG all rights reserved.</p>
+</footer>
+</body>
